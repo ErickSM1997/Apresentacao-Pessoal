@@ -1,0 +1,14 @@
+.menu {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    padding: 15px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao {
+ text-decoration: none;
+ background: transparent;
+ 
+}
