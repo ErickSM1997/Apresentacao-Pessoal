@@ -35,17 +35,4 @@ body {
 
 }
 
-.direita {
-    background-color: #373737;
-    width: 60%;
-}
 
-.esquerda {
-    background-color: #BBC0BA;
-    width: 40%;
-}
-
-.container {
-    height: 100%;
-    display: flex;
-}
