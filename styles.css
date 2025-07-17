@@ -21,12 +21,12 @@ a {
 }
 
 body {
-    background-color: #BBC0BA;
-    color: #FDFDFD;
-    font-family: sans-serif;
-    font-size: large;
-    height: 100vh;
-    width: 100vw;
+
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #000;
+   
+
 }
 
 .menu-items {
@@ -35,41 +35,34 @@ body {
 
 }
 
-.linha azul {
-    width: 30px;
-    height: 3px;
-    background-color: #0044ff;
-    margin: 10px auto;
-    border-radius: 2px;
-}
-
 .foto-perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 400px; /* Comprimento de 440px da imagem de perfil */ 
+    height: 400px; /* Altura de 400px da imagem do perfil*/
+    border-radius: 50%; /*Deixa a borda curva/suavizada*/
+    /*object-fit: cover;*/ 
 }
 
-.cartao {
-    width: 30%;
-    background-color: #f5ede6;
-    text-align: center;
-    padding: 40px 20px;
+.centralizar-container {     /* Centraliza o conteúdo do container pai*/
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.nome {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 1.2;
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
-.cargo {
-    letter-spacing: 2px;
-    font-size: 12px;
-    color: #333;
-    margin-top: 10px;
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    max-width: 500px;
 }
 
